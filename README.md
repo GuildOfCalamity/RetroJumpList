@@ -3,8 +3,9 @@
 ![Image](./Demo/Resources/ScreenShot.png)
 
 ## 🎛️ Description
-* Uses the [NotifyIcon](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.notifyicon?view=windowsdesktop-8.0&viewFallbackFrom=net-5.0) control to create a list of commonly used folders/files that the user can easily launch.
-* This application uses [.NET Framework v4](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net40)
+* Uses the [NotifyIcon](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.notifyicon?view=netframework-4.0) control to create a list of commonly used folders/files that the user can easily launch.
+* This application has no main form, instead it uses the [ApplicationContext](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.applicationcontext?view=netframework-4.0) to create an instance for the [ContextMenu](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.contextmenu?view=netframework-4.0).
+* In the spirit of keeping this retro, the framework base is [.NET Framework v4](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net40).
  
 ## 🧾 License/Warranty
 * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish and distribute copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
