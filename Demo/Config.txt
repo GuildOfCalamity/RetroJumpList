@@ -1,0 +1,7 @@
+VS2022 Preview,C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe
+-
+Program Files,C:\Program Files (x86)
+-
+JumpList Config File,C:\PathToWhereYouRunThisFrom\Config.txt
+-
+Local Repos,C:\Users\Me\source\repos
